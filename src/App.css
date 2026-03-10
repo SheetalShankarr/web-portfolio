@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-color: #000;
+}
+
 .App {
   background-color: #000000;
   min-height: 100vh;
@@ -66,10 +71,19 @@
   font-weight: bold;
 }
 
+.text-pretty {
+  color: rgb(233, 176, 185);
+  font-weight: bold;
+}
+
 .terminal-cursor {
   font-weight: bold;
   margin-left: 3px;
   animation: blink 1s step-end infinite;
+}
+
+.tab {
+  margin-left: 10px;
 }
 
 @keyframes blink {
@@ -78,5 +92,13 @@
   }
   50% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 768) {
+
+  .terminal {
+    font-size: 14px;
+    padding: 12px;
   }
 }
