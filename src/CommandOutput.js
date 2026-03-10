@@ -109,9 +109,9 @@ const CommandOutput = ({ command }) => {
   if (command === 'links') {
     return (
         <div>
-          <span className='tab'><a href='https://github.com/SheetalShankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>GitHub</a></span><br/>
-          <span className='tab'><a href='https://www.linkedin.com/in/sheetal-shankarr/' target='_blank' rel='noreferrer' className='text-semi-highlight'>LinkedIn</a></span><br/>
-          <span className='tab'><a href='https://medium.com/@sheetalshankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>Medium</a></span><br/>
+          <span className='tab'><a href='https://github.com/SheetalShankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>GitHub</a> - because the contribution chart motivates me.</span><br/>
+          <span className='tab'><a href='https://www.linkedin.com/in/sheetal-shankarr/' target='_blank' rel='noreferrer' className='text-semi-highlight'>LinkedIn</a> - to find me in my most professional form.</span><br/>
+          <span className='tab'><a href='https://medium.com/@sheetalshankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>Medium</a> - i also write, like once every blue moon?</span><br/>
         </div>
     )
   }
