@@ -106,6 +106,15 @@ const CommandOutput = ({ command }) => {
         </div>
     )
   }
+  if (command === 'links') {
+    return (
+        <div>
+          <span className='tab'><a href='https://github.com/SheetalShankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>GitHub</a></span><br/>
+          <span className='tab'><a href='https://www.linkedin.com/in/sheetal-shankarr/' target='_blank' rel='noreferrer' className='text-semi-highlight'>LinkedIn</a></span><br/>
+          <span className='tab'><a href='https://medium.com/@sheetalshankarr' target='_blank' rel='noreferrer' className='text-semi-highlight'>Medium</a></span><br/>
+        </div>
+    )
+  }
   // Default output
   return <span className='body-text'><span className='error-text'>'{command}'</span> is not recognized as a command. Type <span className='text-hightlight'>help</span> to know all commands</span>
 }
