@@ -6,7 +6,7 @@ const CommandOutput = ({ command }) => {
     return (
         <div className='command-body'>
         <p className='body-text'>
-            Hello, it's <span className='text-pretty'>Sheetal Shankar. Software Engineer. Reader. Builder of things.</span>
+            Hello, it's <span className='text-pretty'>Sheetal Shankar. Senior Software Engineer. Reader. Builder of things.</span>
         </p>
         <p className='body-text'>
           Almost 3 years of turning complex requirements into clean, 
@@ -47,9 +47,10 @@ const CommandOutput = ({ command }) => {
       <span className='certification-text'>
         <span className='text-blue'>Projects</span>
         <p>
+        <span className='text-semi-highlight'>Kāṇike:</span> A wedding gifting platform.<br/>
+        <span className='tab'>-&gt; <a href='https://kaanike.in/' target='_blank' rel='noreferrer' className='text-semi-highlight'>Launch App</a></span><br/>
         <span className='text-semi-highlight'>Clean Ingredients Checker:</span> Spot toxic ingredients in cosmetics.<br/>
         <span className='tab'>-&gt; <a href='https://cleanbeauty.info/' target='_blank' rel='noreferrer' className='text-semi-highlight'>Launch App</a></span><br/>
-        <span className='text-semi-highlight'>Website:</span> Designed an art gallery website using HTML, CSS, PHP, and MySQL.<br/>
         </p>
         <span>Type <span className='text-hightlight'>back</span> to go back to main menu</span>
       </span>
